@@ -4,7 +4,7 @@ from threading import Thread
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
 TOKEN = os.environ.get('8823352913:AAHHkvknLOa3wlJRfEyD9yjuz7lRnwUH1Zo')
-
+print(f"Token loaded: {TOKEN[:10]}...") 
 # Fake web server so Render Free Web Service stays alive
 app = Flask(__name__)
 
