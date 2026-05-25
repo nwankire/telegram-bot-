@@ -30,13 +30,4 @@ print("TOKEN VALUE:", repr(TOKEN))
 print("=== RENDER DEBUG END ===")
 
 # === Bot Command Functions ===
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_name = update.effective_user.first_name
-    await update.message.reply_text(
-        f"Hello {user_name}! 👋\n\n"
-        f"I'm alive and running on Render!\n"
-        f"Use /ping to test me."
-    )
-
-async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Pong! 🏓 Bot
+async def start(update: Update, context: ContextTypes
