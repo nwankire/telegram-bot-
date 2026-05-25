@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # 1. Load token safely - no more NoneType crash
-TOKEN = os.environ.get('8823352913:AAHHkvknLOa3wlJRfEyD9yjuz7lRnwUH1Zo')
+TOKEN = os.environ.get('8823352913:AAHEXnS0FxKLIFeir3N_xdg_W2vD3aKXS1Y')
 
 # 2. Create Flask app to keep Render happy
 app = Flask(__name__)
